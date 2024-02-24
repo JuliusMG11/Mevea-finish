@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'GilmerMedium';
+    src: url('/fonts/Gilmer-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'GilmerRegular';
+    src: url('/fonts/Gilmer-Regular.woff2') format('woff2');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'InterMedium';
+    src: url('/fonts/Inter-Medium.woff2') format('woff2');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'InterRegular';
+    src: url('/fonts/Inter-Regular.woff2') format('woff2');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'InterSemibold';
+    src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+    font-style: normal;
+  }
+  
+  
+
+body {
+    font-family: 'InterRegular', sans-serif;
+    color: $color-white;
+    font-size: 16px;
+}
+
+span {
+  font-family: 'InterMedium';
+}
+
+h1 {
+    font-size: 2.625rem; // 42px
+    font-family: 'GilmerMedium';
+    color: $color-white;
+    line-height: 52px;
+    font-weight: 400;
+
+    @media (min-width: 1536px) {
+      font-size: 4.25rem; //68px
+      line-height: 72px;
+    }
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 64px;
+    color: $color-primary;
+    font-family: 'GilmerRegular';
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'GilmerRegular';
+  color: $color-white;
+}
+
+h4 {
+  font-family: 'GilmerRegular';
+}
